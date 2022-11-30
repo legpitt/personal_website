@@ -1,0 +1,214 @@
+body {
+    display: block;
+    height: auto;
+    margin: 0px;
+}
+
+.dotted-hr {
+    background-color: #B2B2B2;
+    border-style: dotted none none;
+    border-style: solid noshade;
+    height: 1000px;
+    width: 2px;
+    margin-top: 10px;
+}
+
+
+
+hr {
+  border: dotted #EAEAEA 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+h1 {
+    color: #3C4048;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5.625rem;
+    margin: 50 auto 0 auto
+}
+
+h2 {
+    color: #3C4048;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+h3 {
+    color: #00ABB3;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h4 {
+    color: #00ABB3;
+}
+
+p {
+    text-align: centre;
+}
+
+.middle-container {
+    align_items: flex-start;
+    background-color: white;
+    display: flex;
+    height: 2000
+
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    width: 790px;
+}
+
+.line_column {
+    align-items: center;
+    background-color: white;
+    border-left: thick solid white;
+    display: inline;
+    flex: 1;
+    flex-flow: column nowrap;
+    height: 1000px;
+    margin-top: 50px;
+    width: 0px;
+}
+
+.date_container_column {
+    background-color: white;
+    font-family: 'Orbitron', sans-serif;
+    height: 1200px; width: 320px;
+/*
+    align-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    font-family: 'Orbitron', sans-serif;
+
+    height: 500px; width: auto;
+*/
+
+}
+
+.datebox1 {
+    position: absolute;
+    top: 100px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.career_p {
+    margin-right: 400px;
+}
+
+.description_column {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    flex: 3;
+
+    flex-flow: column nowrap;
+    padding-left: 30px ;
+    padding-top: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 0px 0px;
+}
+
+.description_box {
+    flex: 0 5 10%;
+    align-self: flex-start;
+}
+
+
+
+.p1{
+    margin-top: 50px;
+}
+
+.p2{
+    margin-top: 200px;
+}
+
+.p3{
+    margin-top: 260px;
+}
+
+.p4{
+    margin-top: 240px;
+}
+
+.p5{
+    margin-top: 220px;
+}
+
+.title {
+    align-content: center;
+    background-color: #EAEAEA;
+    display: inline-block;
+    flex: 0 0 100% ;
+    margin-top: 30px;
+    height: 80px;
+}
+
+.top-container {
+  background-color: #EAEAEA;
+  position: relative;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  background-color: #EAEAEA;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+align-self: center;
+  color: #00ABB3;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}

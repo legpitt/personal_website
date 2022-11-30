@@ -1,0 +1,178 @@
+body{
+    background-color: ;
+    margin: 0;
+}
+hr {
+    background-color: white;
+    border-style: dotted none none;
+    border-style: none;
+    height: 2px;
+    width: 75%;
+}
+h1 {
+    background: -webkit-linear-gradient(#0008C1, white, black, #6C4AB6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px white;
+    /*color:  #625750;*/
+    font-size: 200px;
+    text-align: center;
+}
+
+h2 {
+    color: #b9936c;
+    text-align: center;
+}
+
+h3 {
+    color: #b9936c;
+    text-align: center;
+}
+
+.header{
+  background-color: black;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.top-container {
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background-color: #7F8487;
+    height: 550px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 100px;
+}
+
+.title-img {
+  width: 1000px;
+}
+
+.middle-container {
+    height: 400px;
+    background-color: white;
+}
+
+.container {
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%
+  overflow: hidden;
+  box-shadow: -1px 5px 15px black;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+.bottom-container {
+    height: 400px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: 'Road Rage', sans-serif;
+  padding: 50px 0 20px;
+  align-items: center;
+  }
+
+.copyright {
+  display: flex;
+  align-font: center;
+  width: auto;
+  font-size: 1.4rem;
+  padding-bottom: 40px 0;
+  color: white;
+}
+
+:root{
+  background:black;
+  filter:url(#noise) contrast(110%);
+}
+
+.centered{
+  display: flex;
+  position:absolute;
+  left:61vw;
+  top:16vh;
+  transform:translateX(-50%) translateY(-50%);
+  text-align:center;
+
+}
+
+.hauser{
+  display: flex;
+  color:white;
+  font-family: 'Road Rage', sans-serif;
+  font-size:12vh;
+  padding:0 1em;
+  filter:url(#outerGlow);
+  width: 1226px;
+  height: px;
+}
+
+.hauser:after{
+  content:attr(data-text);
+  position:absolute;
+  left:0;
+  padding:0 1em;
+  filter: url(#frontGradient) url(#backGradient) url(#innerGlow) url(#stroke);
+}
+
+.social-logo-container{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    margin: 15px;
+    width: 200px;
+    height: 60px;
+}
+
+
+a img {
+  transition: transform .2s;
+  width: 90px;
+  height: 68x;
+  padding: 0px;
+  top: 10px;
+  left: 10px
+  display: none;
+  border-radius: 10px;
+}
+
+.logo-reddit {
+  background-color: white;
+  transition: transform 0.2s;
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+}
+/*
+.logo-insta {
+    transition: transform .2s;
+    width:75px;
+    height:60px;
+    margin:0 auto;
+    border-radius: 10px;
+}
+*/
+
+a:hover img {
+  transform: scale(2);
+}
