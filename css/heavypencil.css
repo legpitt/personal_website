@@ -20,8 +20,29 @@ h1 {
 }
 
 h2 {
-    color: #b9936c;
+  text-align: center;
+  align-font: center;
+  width: auto;
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  color: white;
+  font-family: 'Road Rage', sans-serif;
+  filter:url(#outerGlow);
+
+}
+
+p {
+  color: white;
     text-align: center;
+  align-font: center;
+  width: auto;
+  font-size: 2rem;
+  padding: 0px;
+
+  color: white;
+  font-family: 'Road Rage', sans-serif;
+  filter:url(#outerGlow);
 }
 
 h3 {
@@ -46,7 +67,7 @@ h3 {
     height: 550px;
     display: flex;
     flex-flow: column nowrap;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .title-img {
@@ -54,11 +75,34 @@ h3 {
 }
 
 .middle-container {
-    height: 400px;
-    background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-contents: center;
+  height: 800px;
+  width: auto;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  font-family: 'Road Rage', sans-serif;
+  align-font: center;
 }
 
-.container {
+.large-image-container {
+  display: flex;
+  width: 700px;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-bottom: 30px;
+
+}
+
+.image-container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+
+}
+/*.container {
   width: 500px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -73,7 +117,7 @@ h3 {
   display: flex;
   animation: slide 16s infinite;
 }
-
+*/
 .bottom-container {
     height: 400px;
 }
